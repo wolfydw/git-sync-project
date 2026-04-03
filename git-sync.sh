@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+script_dir="$(cd "$(dirname "$0")" && pwd)"
+python3 "$script_dir/git-sync-manager.py" "$@"

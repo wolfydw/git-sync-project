@@ -1,0 +1,43 @@
+{
+  "scan_roots": [
+    "~"
+  ],
+  "monitored_repos": [
+    "/Users/yangdawei/Documents/KeyDocs",
+    "/Users/yangdawei/Documents/teaching-notes",
+    "/Users/yangdawei/Documents/vitepress",
+    "/Users/yangdawei/Documents/xinshikong",
+    "/Users/yangdawei/Documents/ziyong"
+  ],
+  "exclude_dir_names": [
+    ".git",
+    ".svn",
+    ".hg",
+    ".Trash",
+    ".cache",
+    ".npm",
+    ".pnpm-store",
+    ".yarn",
+    ".next",
+    ".nuxt",
+    ".turbo",
+    ".idea",
+    ".vscode",
+    "__pycache__",
+    "node_modules",
+    ".venv",
+    "venv",
+    "dist",
+    "build",
+    "target",
+    "DerivedData",
+    "Library",
+    "Applications"
+  ],
+  "use_ai_commit": true,
+  "openai_model": "gpt-5",
+  "openai_base_url": "https://api.openai.com/v1/responses",
+  "openai_reasoning_effort": "minimal",
+  "diff_char_limit": 12000,
+  "include_clean_repos": true
+}
